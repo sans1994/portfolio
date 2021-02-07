@@ -1,0 +1,33 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="163" height="43" viewBox="0 0 163 43">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        font-size: 19.996px;
+        text-anchor: middle;
+        font-family: Montserrat;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .cls-1 {
+        fill: #403d40;
+      }
+
+      .cls-2 {
+        fill: #79e5e9;
+      }
+
+      .cls-3 {
+        fill: #070707;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <text id="folio" class="cls-1" transform="translate(75.18 42.603) scale(2.47)">fo<tspan class="cls-2">l</tspan>io</text>
+  <text id="TM" class="cls-3" transform="translate(159.27 10.626) scale(0.218)">TM</text>
+  <path id="Shape" class="cls-4" d="M732,175l50.337,16.95L734,201Z" transform="translate(-665 -175)"/>
+</svg>

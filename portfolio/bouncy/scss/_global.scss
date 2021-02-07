@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1920px;;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+ul, li{
+    list-style-type: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}

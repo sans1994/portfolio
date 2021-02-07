@@ -1,0 +1,164 @@
+/* Стили для больших экранов (дисплей максимум 1250 пикселей) */
+@media (max-width: 1250px) { 
+  .work:nth-child(2)::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/waves.png);
+      width: 104px;
+      height: 57px;
+      top: -30px;
+      right: 60px;
+  }
+  .work:nth-child(4)::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/onewave.svg);
+    background-repeat: no-repeat;
+    width: 79px;
+    height: 34px;
+    top: 96%;
+    right: 39px;
+  }
+}
+
+/* Стили для больших экранов (дисплей максимум 1199 пикселей) */
+@media (max-width: 1199px) { 
+  .header {
+    padding: 10% 0 20% 0;
+  }
+}
+
+/* Стили для средних экранов (дисплей максимум 991 пикселей) */
+@media (max-width: 991px) {
+
+}
+
+/* Стили для маленьких экранов (дисплей максимум 767 пикселей) */
+@media (max-width: 767px) {
+  .first-scrn__title {
+    font-size: 150px;
+    font-weight: 700;
+    margin-left: -17px;
+  }
+  .social-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+    position: relative;
+  }
+  .header {
+    padding: 10% 0 30% 0;
+  }
+}
+
+/* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
+@media (max-width: 575px) {
+  .first-scrn__title {
+    font-size: 100px;
+    font-weight: 700;
+    margin-left: -17px;
+  }
+  .phone-number {
+    font-size: 40px;
+  }
+  .header {
+    padding: 10% 0 50% 0;
+  }
+}
+
+@media (max-height: 1080px) {
+  .job__years {
+    font-size: 25px;
+  }
+}
+@media (max-height: 900px) {
+  .job {
+    padding: 20px 0;
+    &:nth-child(1) {
+      padding-right: 20px;
+    }
+    &:nth-child(2) {
+      padding-right: 20px;
+      padding-left: 20px;
+      border-left: 1px solid #2f2c2f;
+      border-right: 1px solid #2f2c2f;
+    }
+    &:nth-child(3) {
+      padding-left: 20px;
+    }
+  }
+}
+@media (max-width: 414px), (max-height: 600px), (orientation: landscape) {
+  .first-scrn {
+    padding-bottom: 100px;
+  }
+  .about__title {
+    font-size: 33px;
+  }
+  .about__subtitle {
+    font-size: 16px;
+  }
+  .about__photo {
+    width: 10vh;
+    height: 10vh;
+    margin-right: 100%;
+  }
+  .about__photo::after {
+    font-size: 9px;
+  }
+  .about__photo::before {
+    content: "";
+    width: 19px;
+    height: 19px;
+    background-size: cover;
+  }
+  .about__subtitle {
+    display: none;
+  }
+  .skills__item:nth-child(2) {
+    margin: 0 20px;
+  }
+  .progress__title {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.48px;
+    margin-bottom: 3vh;
+    text-align: center;
+  }
+  .progress .progress-bar span {
+    font-size: 11px;
+  }
+  .job__years {
+    font-size: 16px;
+  }
+  .job__pos span {
+    font-size: 11px;
+  }
+  .about__jobs {
+    flex-direction: column;
+  }
+  .job {
+    width: 100%;
+    padding: 10px 0;
+    &:nth-child(1) {
+      padding-right: 0;
+    }
+    &:nth-child(2) {
+      padding-right: 0;
+      padding-left: 0;
+      border-left: 1px solid #2f2c2f;
+      border-right: 1px solid #2f2c2f;
+    }
+    &:nth-child(3) {
+      padding-left: 0;
+    }
+  }
+  .about__header {
+    padding-bottom: 7vh;
+    padding-top: 7vh;
+  }
+}

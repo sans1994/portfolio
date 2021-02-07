@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- МЕТА -->
+    <title>PROTS DENYS - junior front-end developer</title>
+    <meta
+      name="description"
+      content="Hi, I'm Denis – HTML/CSS developer from Lviv. I'm interested in web development and everything connected with it."
+    />
+    <meta name="keywords" content="мета-теги, шаблон, html, css, js, gulp, ps, vscode, jquerry, figma, wordpress, msoffice, bootstrap, sass, bem" />
+
+    <!-- Контролирует поведение поисковых систем при индексации страницы -->
+    <meta name="robots" content="index,follow,noodp" />
+    <!-- Все поисковые системы -->
+    <meta name="googlebot" content="index,follow" />
+    <!-- Указание отдельно для Google -->
+
+    <!-- Позволяет указать Google не показывать в поисковой выдаче поле для поиска по сайту -->
+    <meta name="google" content="nositelinkssearchbox" />
+    <!-- Позволяет указать Google не предлагать перевести эту страницу -->
+    <meta name="google" content="notranslate" />
+    <!-- Подтверждает авторство страницы в Google Search Console -->
+    <meta name="google-site-verification" content="verification_token" />
+    <!-- Тег указания ПО, которое сгенерировало эту страницу -->
+    <meta name="generator" content="program" />
+    <!-- Короткое описание тематики вашего сайта -->
+    <meta name="subject" content="тематика вашего сайта" />
+    <!-- open graph Facebook-->
+    <meta content="Заголовок" />
+    <meta content="website" />
+
+    <!-- если сайт многоязычный -->
+    <!-- <meta property="og:locale" content="ru_RU"> -->
+    <meta content="http://prots.pro" />
+
+    <!-- не меньше 600х315, не более 8Мб -->
+    <meta content="http://localhost.my/img/og_cover.jpg" />
+    <meta
+      content="Hi, I'm Denis – HTML/CSS developer from Lviv.
+  I'm interested in web development and everything connected with it."
+    />
+    <meta content="Facebook ID" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ник_компании_в_твиттере" />
+    <meta name="twitter:title" content="PROTS DENYS - junior front-end developer" />
+    <meta
+      name="twitter:description"
+      content="Hi, I'm Denis – HTML/CSS developer from Lviv.
+  I'm interested in web development and everything connected with it."
+    />
+    <meta name="twitter:creator" content="@ник_в_твиттере" />
+
+    <!-- картинка не меньше 280х150, не более 1Мб -->
+    <meta name="twitter:image" content="http://localhost.my/img/tw_cover.jpg" />
+
+    <!-- G+ / Pinterest -->
+    <meta content="PROTS DENYS - junior front-end developer" />
+    <meta
+      content="Hi, I'm Denis – HTML/CSS developer from Lviv.
+  I'm interested in web development and everything connected with it."
+    />
+    <meta content="http://localhost.my/img/g_cover.jpg" />
+
+    <!-- Google authorship -->
+    <link rel="author" href="https://plus.google.com/[Google+_Profile]/posts" data-mce-href="https://plus.google.com/[Google+_Profile]/posts" />
+    <link rel="publisher" href="https://plus.google.com/[Google+_Page_Profile]" data-mce-href="https://plus.google.com/[Google+_Page_Profile]" />
+
+    <!-- Фавиконы и иконки сайта -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-touch-icon-57x57.png" data-mce-href="/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-touch-icon-60x60.png" data-mce-href="/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-touch-icon-72x72.png" data-mce-href="/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-touch-icon-76x76.png" data-mce-href="/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-touch-icon-114x114.png" data-mce-href="/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-touch-icon-120x120.png" data-mce-href="/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-touch-icon-144x144.png" data-mce-href="/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-touch-icon-152x152.png" data-mce-href="/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon-180x180.png" data-mce-href="/apple-touch-icon-180x180.png" />
+    <link rel="icon" type="image/png" href="./images/favicon/favicon-32x32.png" sizes="32x32" data-mce-href="./images/favicon/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/favicon/android-chrome-192x192.png"
+      sizes="192x192"
+      data-mce-href="./images/favicon/android-chrome-192x192.png"
+    />
+    <link rel="icon" type="image/png" href="./images/favicon/favicon-96x96.png" sizes="96x96" data-mce-href="./images/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" href="./images/favicon/favicon-16x16.png" sizes="16x16" data-mce-href="./images/favicon/favicon-16x16.png" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-TileImage" content="./images/favicon/mstile-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4285f4" />
+
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4285f4" />
+
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Яндекс.Браузер -->
+    <!-- <meta name="viewport" content="ya-title=#4e69a2,ya-dock=fade"> -->
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css" />
+    <link
+      crossorigin="anonymous"
+      rel="stylesheet"
+      id="font-awesome-css"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      type="text/css"
+      media="all"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <div id="page-preloader">
+      <div class="contpre">
+        <div id="circleG">
+          <div id="circleG_1" class="circleG"><i class="fab fa-css3-alt"></i></div>
+          <div id="circleG_2" class="circleG"><i class="fas fa-code"></i></div>
+          <div id="circleG_3" class="circleG"><i class="fab fa-php"></i></div>
+          <div id="circleG_4" class="circleG"><i class="fab fa-codepen"></i></div>
+          <div id="circleG_5" class="circleG"><i class="fab fa-html5"></i></div>
+          <div id="circleG_6" class="circleG"><i class="fab fa-wordpress-simple"></i></div>
+        </div>
+      </div>
+    </div>
+    <header id="header" class="header">
+      <nav class="header__nav">
+        <div class="header__logo">
+          <img src="./images/logo-black.png" alt="" />
+        </div>
+        <ul class="header__nav-list">
+          <li class="nav-list__item">
+            <a class="nav-list__link cursor-link" href="#header">Home</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link cursor-link" href="#about">About me</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link cursor-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link cursor-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link cursor-link" href="#contacts">Contacts</a>
+          </li>
+          <div class="header__about-lang header__about-lang--mob">
+            <a href="" class="lang-ua cursor-link">UA</a>
+            <span>|</span>
+            <a href="" class="lang-eng lang--active cursor-link">ENG</a>
+          </div>
+        </ul>
+        <div class="header__burger">
+          <span></span>
+        </div>
+      </nav>
+      <div class="container">
+        <img class class="header__about" />
+        <div class="header__about-text">
+          <div class="header__about-name">
+            Denis <br />
+            Prots
+          </div>
+          <div class="header__about-pos">
+            HTML | CSS developer <br />
+            26 years old, Lviv
+          </div>
+          <div class="header__about-lang">
+            <a href="#" class="lang-ua cursor-link"> UA </a>
+            <span>|</span>
+            <a href="#" class="lang-eng lang--active cursor-link"> ENG </a>
+          </div>
+        </div>
+        <div class="header__about-img"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section id="about" class="about">
+        <div class="section__title">About me</div>
+        <div class="about__text">
+          <p>Hi, I'm Denis – HTML/CSS developer from Lviv. I'm interested in web development and everything connected with it.</p>
+
+          <p>I study on my own and have been freelancing since 2019.</p>
+
+          <p>Ready to implement excellent projects with wonderful people.</p>
+        </div>
+      </section>
+      <section id="skills" class="skills">
+        <div class="section__title">Skills</div>
+        <div class="section__subtitle">I work in programs and technologies such as</div>
+        <div class="skills__wrapper">
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/html.svg" alt="" />
+            </div>
+            <div class="item__name">HTML</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/css.svg" alt="" />
+            </div>
+            <div class="item__name">CSS</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/js.svg" alt="" />
+            </div>
+            <div class="item__name">JS</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/jquery.svg" alt="" />
+            </div>
+            <div class="item__name">JQuery</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/ps.svg" alt="" />
+            </div>
+            <div class="item__name">Adobe Photoshop</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/vscode.svg" alt="" />
+            </div>
+            <div class="item__name">Visual Studio Code</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/gulp.svg" alt="" />
+            </div>
+            <div class="item__name">Gulp</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/figma.svg" alt="" />
+            </div>
+            <div class="item__name">Figma</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/bootstrap.svg" alt="" />
+            </div>
+            <div class="item__name">Bootstrap</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/bem.svg" alt="" />
+            </div>
+            <div class="item__name">BEM</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/sass.svg" alt="" />
+            </div>
+            <div class="item__name">SASS / SCSS</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/git.svg" alt="" />
+            </div>
+            <div class="item__name">GIT</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/word.svg" alt="" />
+            </div>
+            <div class="item__name">MS Office Word</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/excel.svg" alt="" />
+            </div>
+            <div class="item__name">MS Office Excel</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="skills__item">
+            <div class="item__img">
+              <img src="./images/wordpress.svg" alt="" />
+            </div>
+            <div class="item__name">Wordpress</div>
+            <ul class="item__rank">
+              <li class="rank__star">
+                <img src="./images/star-black.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+              <li class="rank__star">
+                <img src="./images/star-opacity.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="portfolio">
+        <div class="section__title">Portfolio</div>
+        <!-- <button class="button  showMore" id="showMore">show more</button> -->
+        <div class="filter-buttons">
+          <button type="button" data-mixitup-control class="filter-btn cursor-link" data-filter="all">Show All</button>
+          <button type="button" data-mixitup-control class="filter-btn cursor-link" data-filter=".sites">Web Sites</button>
+          <button type="button" data-mixitup-control class="filter-btn cursor-link" data-filter=".letters">HTML Letters</button>
+        </div>
+        <div class="section-fluid-main">
+          <div id="portfolio__wrapper" class="section-row">
+            <a href="./portfolio/go-surf/index.html" class="portfolio__item mix sites cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/gosurf.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>Go-Surf</h2>
+              </div>
+            </a>
+            <a href="./portfolio/mamoon/index.html" class="portfolio__item mix sites cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/mamoon.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>Mamoon</h2>
+              </div>
+            </a>
+            <a href="./portfolio/oxygen/index.html" class="portfolio__item mix sites cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/oxygen.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>Oxygen</h2>
+              </div>
+            </a>
+            <a href="./portfolio/applab/index.html" class="portfolio__item mix letters cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/applab.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>AppLab</h2>
+              </div>
+            </a>
+            <a href="./portfolio/zavodopor.info/index.html" class="portfolio__item mix sites cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/zavodopor.info.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>zavodopor.info</h2>
+              </div>
+            </a>
+            <a href="./portfolio/woodmap/index.html" class="portfolio__item mix sites cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/woodmap.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>Woodmap</h2>
+              </div>
+            </a>
+            <a href="./portfolio/zavodopor.rf/index.html" class="portfolio__item mix sites cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/zavodopor.rf.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>заводопор.рф</h2>
+              </div>
+            </a>
+            <a href="./portfolio/folio/index.html" class="portfolio__item mix sites cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/folio.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>Folio</h2>
+              </div>
+            </a>
+            <a href="./portfolio/roses/index.html" class="portfolio__item mix sites cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/roses.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>Roses</h2>
+              </div>
+            </a>
+            <a href="./portfolio/html-letters/ferika.html" class="portfolio__item mix letters cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/ferika.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>Ferika</h2>
+              </div>
+            </a>
+            <a href="./portfolio/html-letters/pozdra.html" class="portfolio__item mix letters cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/pozdra.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>PozdraVideo</h2>
+              </div>
+            </a>
+            <a href="./portfolio/html-letters/vtrende.html" class="portfolio__item mix letters cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/vtrende.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>Vtrende</h2>
+              </div>
+            </a>
+            <a href="./portfolio/html-letters/voda.html" class="portfolio__item mix letters cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/voda.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>VODA</h2>
+              </div>
+            </a>
+            <a href="./portfolio/html-letters/satelit.html" class="portfolio__item mix letters cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/satelit.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>Satelit</h2>
+              </div>
+            </a>
+            <a href="./portfolio/html-letters/polyflex.html" class="portfolio__item mix letters cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/polyflex.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>Polyflex</h2>
+              </div>
+            </a>
+            <a href="./portfolio/html-letters/niizis.html" class="portfolio__item mix letters cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/nii.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>Niizis</h2>
+              </div>
+            </a>
+            <a href="./portfolio/html-letters/luxart.html" class="portfolio__item mix letters cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/luxart.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>LuxArt</h2>
+              </div>
+            </a>
+            <a href="./portfolio/html-letters/gt4u.html" class="portfolio__item mix letters cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/gt4u.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>GT4U</h2>
+              </div>
+            </a>
+            <a href="./portfolio/html-letters/finfox.html" class="portfolio__item mix letters cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/finfox.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>Finfox</h2>
+              </div>
+            </a>
+            <a href="./portfolio/html-letters/bars.html" class="portfolio__item mix letters cursor-link">
+              <div class="section-col">
+                <div class="section">
+                  <div class="section-in">
+                    <img src="./images/portfolio/bars.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hover-text">
+                <h2>Bars</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="contacts" class="contacts">
+        <div class="contacts__soc-icons">
+          <a href="https://t.me/prots_d" target="_blank"><img class="soc-icon cursor-link" src="./images/telegram.svg" alt="telegram" /></a>
+          <a href="http://instagram.com/prots_d" target="_blank"><img class="soc-icon cursor-link" src="./images/instagram.svg" alt="instagram" /></a>
+          <a href="http://vk.com/denys.prots" target="_blank"><img class="soc-icon cursor-link" src="./images/vk.svg" alt="vkontakte" /></a>
+          <a href="https://codepen.io/prots_d" target="_blank"><img class="soc-icon cursor-link" src="./images/codepen.svg" alt="codepen" /></a>
+          <a href="https://ua.linkedin.com/in/denys-prots-5593a9161" target="_blank"
+            ><img class="soc-icon cursor-link" src="./images/linkedin.svg" alt="linkedin"
+          /></a>
+        </div>
+      </section>
+    </main>
+    <!-- <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  </div> -->
+    <!-- Page cursor
+    ================================================== -->
+
+    <div class="cursor cursor-shadow"></div>
+    <div class="cursor cursor-dot"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous"></script> -->
+    <script src="https://use.fontawesome.com/de2a2d8ad9.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

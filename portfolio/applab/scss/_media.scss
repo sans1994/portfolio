@@ -1,0 +1,139 @@
+/* xl-размер (>=1200px) */
+/* CSS для >=1200px */
+ 
+/* lg-размер (<=1500px) */
+@media (max-width: 1500px) {
+  /* CSS для ширины от 992px до 1500px */
+  .built {
+    &::before {
+      opacity: .3;
+    }
+  }
+}
+/* lg-размер (<=1199px) */
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+  .header__logo {
+    padding-left: 110px;
+    z-index: 7;
+  }
+}
+ 
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+  .header {
+    position: relative;
+  }
+  .header__menu {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    background-color: #fff;
+    z-index: 5;
+    transform: translateY(-100%);
+    transition: all .5s ease-in-out;
+    opacity: 0;
+    &.flex-transform {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .header__menu-list {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  .header__menu-list li {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .header__menu-btn {
+    display: block;
+  }
+  .first-screen::before {
+    opacity: 0.3;
+  }
+  .features::before {
+    opacity: 0.3;
+  }
+  .jackpots__footer::before {
+    opacity: 0.3;
+  }
+  .built::before {
+    opacity: 0.3;
+  }
+  .load::before {
+    opacity: 0.3; 
+  }
+  .features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .features__box {
+    margin-left: 0;
+  }
+  .jackpots__item:nth-child(2) {
+    margin: 0 50px 50px;
+  }
+  .jackpots__item {
+    margin: 0 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .jackpots__item:nth-child(3) {
+    margin-bottom: 0;
+  }
+  .jackpots__footer {
+    display: flex;
+    justify-content: center;
+  }
+  .jackpots__footer-box {
+    margin: 0;
+  }
+  .built .wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .built__items {
+    justify-content: center;
+  }
+  .built__item {
+    margin: 0 50px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+}
+
+/* sm-размер (<=726px) */
+@media (max-width: 723px) {
+  /* CSS для ширины от 576px до 726px */
+  .plan-1 {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
+}
